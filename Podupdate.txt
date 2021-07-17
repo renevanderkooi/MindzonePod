@@ -1,0 +1,11 @@
+Update version in Xcode
+Update version inside pod spec file
+Update tag
+> git tag 0.0.1
+> git push origin 0.0.1
+Commit changes
+> git add .
+> git commit -m "Added SwiftyLib.podspec"
+> git push
+Push pod
+> pod trunk push
