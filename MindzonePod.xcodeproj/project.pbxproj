@@ -16,6 +16,7 @@
 		0D9C21D226A29B3800E5F150 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D9C21D026A29B3800E5F150 /* Main.storyboard */; };
 		0D9C21D426A29B3A00E5F150 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D9C21D326A29B3A00E5F150 /* Assets.xcassets */; };
 		0D9C21D726A29B3A00E5F150 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D9C21D526A29B3A00E5F150 /* LaunchScreen.storyboard */; };
+		0D9C21DD26A29B9200E5F150 /* MindzonePod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9C21DC26A29B9200E5F150 /* MindzonePod.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		0D9C21D326A29B3A00E5F150 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D9C21D626A29B3A00E5F150 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D9C21D826A29B3A00E5F150 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D9C21DC26A29B9200E5F150 /* MindzonePod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindzonePod.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				0D9C21AD26A29AE500E5F150 /* MindzonePod.h */,
 				0D9C21AE26A29AE500E5F150 /* Info.plist */,
+				0D9C21DC26A29B9200E5F150 /* MindzonePod.swift */,
 			);
 			path = MindzonePod;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 				TargetAttributes = {
 					0D9C21A926A29AE500E5F150 = {
 						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
 					};
 					0D9C21B226A29AE500E5F150 = {
 						CreatedOnToolsVersion = 12.5.1;
@@ -262,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D9C21DD26A29B9200E5F150 /* MindzonePod.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +443,7 @@
 		0D9C21BF26A29AE500E5F150 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 4U6A577989;
@@ -454,6 +460,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = net.mindzone.MindzonePod;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -462,6 +469,7 @@
 		0D9C21C026A29AE500E5F150 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 4U6A577989;
@@ -486,6 +494,7 @@
 		0D9C21C226A29AE500E5F150 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4U6A577989;
 				INFOPLIST_FILE = MindzonePodTests/Info.plist;
@@ -504,6 +513,7 @@
 		0D9C21C326A29AE500E5F150 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4U6A577989;
 				INFOPLIST_FILE = MindzonePodTests/Info.plist;
