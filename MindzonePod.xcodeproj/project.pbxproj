@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D9C21B426A29AE500E5F150 /* MindzonePod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D9C21AA26A29AE500E5F150 /* MindzonePod.framework */; };
+		0D9C21B926A29AE500E5F150 /* MindzonePodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9C21B826A29AE500E5F150 /* MindzonePodTests.swift */; };
+		0D9C21BB26A29AE500E5F150 /* MindzonePod.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D9C21AD26A29AE500E5F150 /* MindzonePod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D9C21CB26A29B3800E5F150 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9C21CA26A29B3800E5F150 /* AppDelegate.swift */; };
+		0D9C21CD26A29B3800E5F150 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9C21CC26A29B3800E5F150 /* SceneDelegate.swift */; };
+		0D9C21CF26A29B3800E5F150 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9C21CE26A29B3800E5F150 /* ViewController.swift */; };
+		0D9C21D226A29B3800E5F150 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D9C21D026A29B3800E5F150 /* Main.storyboard */; };
+		0D9C21D426A29B3A00E5F150 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D9C21D326A29B3A00E5F150 /* Assets.xcassets */; };
+		0D9C21D726A29B3A00E5F150 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D9C21D526A29B3A00E5F150 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D9C21B526A29AE500E5F150 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D9C21A126A29AE500E5F150 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D9C21A926A29AE500E5F150;
+			remoteInfo = MindzonePod;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D9C21AA26A29AE500E5F150 /* MindzonePod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MindzonePod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D9C21AD26A29AE500E5F150 /* MindzonePod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MindzonePod.h; sourceTree = "<group>"; };
+		0D9C21AE26A29AE500E5F150 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D9C21B326A29AE500E5F150 /* MindzonePodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindzonePodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D9C21B826A29AE500E5F150 /* MindzonePodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindzonePodTests.swift; sourceTree = "<group>"; };
+		0D9C21BA26A29AE500E5F150 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D9C21C826A29B3800E5F150 /* MindzonePodExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindzonePodExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D9C21CA26A29B3800E5F150 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0D9C21CC26A29B3800E5F150 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0D9C21CE26A29B3800E5F150 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0D9C21D126A29B3800E5F150 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0D9C21D326A29B3A00E5F150 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D9C21D626A29B3A00E5F150 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0D9C21D826A29B3A00E5F150 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D9C21A726A29AE500E5F150 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D9C21B026A29AE500E5F150 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D9C21B426A29AE500E5F150 /* MindzonePod.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D9C21C526A29B3800E5F150 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D9C21A026A29AE500E5F150 = {
+			isa = PBXGroup;
+			children = (
+				0D9C21AC26A29AE500E5F150 /* MindzonePod */,
+				0D9C21B726A29AE500E5F150 /* MindzonePodTests */,
+				0D9C21C926A29B3800E5F150 /* MindzonePodExamples */,
+				0D9C21AB26A29AE500E5F150 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0D9C21AB26A29AE500E5F150 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D9C21AA26A29AE500E5F150 /* MindzonePod.framework */,
+				0D9C21B326A29AE500E5F150 /* MindzonePodTests.xctest */,
+				0D9C21C826A29B3800E5F150 /* MindzonePodExamples.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D9C21AC26A29AE500E5F150 /* MindzonePod */ = {
+			isa = PBXGroup;
+			children = (
+				0D9C21AD26A29AE500E5F150 /* MindzonePod.h */,
+				0D9C21AE26A29AE500E5F150 /* Info.plist */,
+			);
+			path = MindzonePod;
+			sourceTree = "<group>";
+		};
+		0D9C21B726A29AE500E5F150 /* MindzonePodTests */ = {
+			isa = PBXGroup;
+			children = (
+				0D9C21B826A29AE500E5F150 /* MindzonePodTests.swift */,
+				0D9C21BA26A29AE500E5F150 /* Info.plist */,
+			);
+			path = MindzonePodTests;
+			sourceTree = "<group>";
+		};
+		0D9C21C926A29B3800E5F150 /* MindzonePodExamples */ = {
+			isa = PBXGroup;
+			children = (
+				0D9C21CA26A29B3800E5F150 /* AppDelegate.swift */,
+				0D9C21CC26A29B3800E5F150 /* SceneDelegate.swift */,
+				0D9C21CE26A29B3800E5F150 /* ViewController.swift */,
+				0D9C21D026A29B3800E5F150 /* Main.storyboard */,
+				0D9C21D326A29B3A00E5F150 /* Assets.xcassets */,
+				0D9C21D526A29B3A00E5F150 /* LaunchScreen.storyboard */,
+				0D9C21D826A29B3A00E5F150 /* Info.plist */,
+			);
+			path = MindzonePodExamples;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0D9C21A526A29AE500E5F150 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D9C21BB26A29AE500E5F150 /* MindzonePod.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0D9C21A926A29AE500E5F150 /* MindzonePod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D9C21BE26A29AE500E5F150 /* Build configuration list for PBXNativeTarget "MindzonePod" */;
+			buildPhases = (
+				0D9C21A526A29AE500E5F150 /* Headers */,
+				0D9C21A626A29AE500E5F150 /* Sources */,
+				0D9C21A726A29AE500E5F150 /* Frameworks */,
+				0D9C21A826A29AE500E5F150 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MindzonePod;
+			productName = MindzonePod;
+			productReference = 0D9C21AA26A29AE500E5F150 /* MindzonePod.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0D9C21B226A29AE500E5F150 /* MindzonePodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D9C21C126A29AE500E5F150 /* Build configuration list for PBXNativeTarget "MindzonePodTests" */;
+			buildPhases = (
+				0D9C21AF26A29AE500E5F150 /* Sources */,
+				0D9C21B026A29AE500E5F150 /* Frameworks */,
+				0D9C21B126A29AE500E5F150 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D9C21B626A29AE500E5F150 /* PBXTargetDependency */,
+			);
+			name = MindzonePodTests;
+			productName = MindzonePodTests;
+			productReference = 0D9C21B326A29AE500E5F150 /* MindzonePodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0D9C21C726A29B3800E5F150 /* MindzonePodExamples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D9C21DB26A29B3A00E5F150 /* Build configuration list for PBXNativeTarget "MindzonePodExamples" */;
+			buildPhases = (
+				0D9C21C426A29B3800E5F150 /* Sources */,
+				0D9C21C526A29B3800E5F150 /* Frameworks */,
+				0D9C21C626A29B3800E5F150 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MindzonePodExamples;
+			productName = MindzonePodExamples;
+			productReference = 0D9C21C826A29B3800E5F150 /* MindzonePodExamples.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D9C21A126A29AE500E5F150 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					0D9C21A926A29AE500E5F150 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					0D9C21B226A29AE500E5F150 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					0D9C21C726A29B3800E5F150 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 0D9C21A426A29AE500E5F150 /* Build configuration list for PBXProject "MindzonePod" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D9C21A026A29AE500E5F150;
+			productRefGroup = 0D9C21AB26A29AE500E5F150 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D9C21A926A29AE500E5F150 /* MindzonePod */,
+				0D9C21B226A29AE500E5F150 /* MindzonePodTests */,
+				0D9C21C726A29B3800E5F150 /* MindzonePodExamples */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D9C21A826A29AE500E5F150 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D9C21B126A29AE500E5F150 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D9C21C626A29B3800E5F150 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D9C21D726A29B3A00E5F150 /* LaunchScreen.storyboard in Resources */,
+				0D9C21D426A29B3A00E5F150 /* Assets.xcassets in Resources */,
+				0D9C21D226A29B3800E5F150 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D9C21A626A29AE500E5F150 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D9C21AF26A29AE500E5F150 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D9C21B926A29AE500E5F150 /* MindzonePodTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D9C21C426A29B3800E5F150 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D9C21CF26A29B3800E5F150 /* ViewController.swift in Sources */,
+				0D9C21CB26A29B3800E5F150 /* AppDelegate.swift in Sources */,
+				0D9C21CD26A29B3800E5F150 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D9C21B626A29AE500E5F150 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D9C21A926A29AE500E5F150 /* MindzonePod */;
+			targetProxy = 0D9C21B526A29AE500E5F150 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0D9C21D026A29B3800E5F150 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D9C21D126A29B3800E5F150 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0D9C21D526A29B3A00E5F150 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D9C21D626A29B3A00E5F150 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0D9C21BC26A29AE500E5F150 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0D9C21BD26A29AE500E5F150 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0D9C21BF26A29AE500E5F150 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4U6A577989;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MindzonePod/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.mindzone.MindzonePod;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0D9C21C026A29AE500E5F150 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4U6A577989;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MindzonePod/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.mindzone.MindzonePod;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0D9C21C226A29AE500E5F150 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U6A577989;
+				INFOPLIST_FILE = MindzonePodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.mindzone.MindzonePodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0D9C21C326A29AE500E5F150 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U6A577989;
+				INFOPLIST_FILE = MindzonePodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.mindzone.MindzonePodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0D9C21D926A29B3A00E5F150 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U6A577989;
+				INFOPLIST_FILE = MindzonePodExamples/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.mindzone.MindzonePodExamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0D9C21DA26A29B3A00E5F150 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U6A577989;
+				INFOPLIST_FILE = MindzonePodExamples/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.mindzone.MindzonePodExamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D9C21A426A29AE500E5F150 /* Build configuration list for PBXProject "MindzonePod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D9C21BC26A29AE500E5F150 /* Debug */,
+				0D9C21BD26A29AE500E5F150 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D9C21BE26A29AE500E5F150 /* Build configuration list for PBXNativeTarget "MindzonePod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D9C21BF26A29AE500E5F150 /* Debug */,
+				0D9C21C026A29AE500E5F150 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D9C21C126A29AE500E5F150 /* Build configuration list for PBXNativeTarget "MindzonePodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D9C21C226A29AE500E5F150 /* Debug */,
+				0D9C21C326A29AE500E5F150 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D9C21DB26A29B3A00E5F150 /* Build configuration list for PBXNativeTarget "MindzonePodExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D9C21D926A29B3A00E5F150 /* Debug */,
+				0D9C21DA26A29B3A00E5F150 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D9C21A126A29AE500E5F150 /* Project object */;
+}
