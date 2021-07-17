@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "MindzonePod"
-  spec.version      = "0.0.1"
+  spec.version      = "1.0"
   spec.summary      = "Pod used for Mindzone Common Actions."
 
   # This description is used to generate tags and improve search results.
